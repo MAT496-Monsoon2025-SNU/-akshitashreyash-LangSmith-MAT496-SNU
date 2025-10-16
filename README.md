@@ -14,9 +14,10 @@ The more autonomy given to the LLM, the less reliable the results — LangGraph 
 Notes
 
 No code executed in this video.
------------
+
 
 -Video 2: Simple Graph-
+-----------
 
 Concepts Learned
 
@@ -40,6 +41,7 @@ Commit Summary
 
 -------------------
 Video 3: Studio
+-----------
 
 Concepts Learned
 
@@ -58,8 +60,9 @@ Saved the studio visualization as a PNG in the Module 1 folder.
 Commit Summary
 
 png
-------------------
+
 Video 4: Chain
+------------------
 
 Concepts Learned
 
@@ -75,9 +78,9 @@ Modified the initial message list for testing.
 
 Commit Summary
 
-----------------------------------
-Video 5: Router
 
+Video 5: Router
+----------------------------------
 Concepts Learned
 
 Understood the Router node concept.
@@ -95,9 +98,9 @@ Ran and visualized the updated router in LangSmith Studio.
 Commit Summary
 
 p
----------------------------------------------
-Video 6: Agent
 
+Video 6: Agent
+---------------------------------------------
 Concepts Learned
 
 Built an Agent using the ReAct principle, where outputs loop back as inputs until completion.
