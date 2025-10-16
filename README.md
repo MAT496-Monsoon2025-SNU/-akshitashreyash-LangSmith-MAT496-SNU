@@ -1,41 +1,41 @@
 # -akshitashreyash-LangSmith-MAT496-SNU
 module 1 - LangGraph
 ---
-Video 1: Motivation
+Video 1: motivation
 
-Concepts Learned
+ Ideas Acquired
 
-Understood the control flow of LangGraph applications.
+ comprehended how LangGraph applications operate.
 
-Control flow can be manual or LLM-driven.
+ Both manual and LLM-driven control flows are possible.
 
-The more autonomy given to the LLM, the less reliable the results — LangGraph bridges this reliability gap.
+ The results are less dependable the more autonomy the LLM is given; LangGraph fills this reliability gap.
 
-Notes
+ Remarks
 
-No code executed in this video.
+ In this video, no code is executed.
 
 
 -Video 2: Simple Graph-
 -----------
 
-Concepts Learned
+Ideas Acquired
 
-Learned the structure of a LangGraph, consisting of nodes and edges.
+ learned about the nodes and edges that make up a LangGraph.
 
-Studied conditional edges and graph states.
+ examined graph states and conditional edges.
 
-Built a graph using the StateGraph() builder.
+ The StateGraph() builder was used to create a graph.
 
-Changes Implemented
+ Modifications Made
 
-Modified conditional nodes to analyze the user’s mood based on input text.
+ Conditional nodes were changed to examine the user's mood from the input text.
 
-Node selection now depends on input semantics (e.g., text in all caps → angry tone).
+ Now, input semantics (e.g., text in all caps → angry tone) determine node selection.
 
-Added five conditional nodes in total.
+ A total of five conditional nodes were added.
 
-Prefixed a custom string to the initial graph state.
+ The initial graph state was prefixed with a custom string.
 
 Commit Summary
 
