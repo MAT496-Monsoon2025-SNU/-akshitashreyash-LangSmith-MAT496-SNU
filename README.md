@@ -51,3 +51,11 @@ Lesson 4
 Group Traces Into Threads 
 
 Threading lets us group multiple related traces under a single conversation or workflow. Each run inside the thread shares the same thread ID, making it easy to track context, follow history, and analyze entire sessions as one logical unit. This is useful for chat apps, multi-step pipelines, and any workflow where several traces belong to the same user interaction.
+
+
+
+***MODULE 2
+
+Lesson 1
+
+This code loads environment variables, creates a LangSmith dataset, and uploads a list of example question–answer pairs. It then defines a minimal RAG-style function (langsmith_rag) that retrieves a simple context snippet and generates a short answer. Finally, we can call langsmith_rag(question) to run the example end-to-end.
