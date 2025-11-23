@@ -34,6 +34,7 @@ Streaming lets the model send outputs in small chunks. LangSmith logs each chunk
 Retriever runs show how your system searches for information. They log the user’s query and the documents returned. Each document includes page_content and metadata, helping you diagnose whether retrieval is correct and improving RAG systems.
 
 Lesson 3
+
 Alternative Tracing Methods
 You can trace your LangChain/LangGraph runs using different backends like LangSmith, console logs, file-based logs, or in-memory tracers. Each method captures inputs, outputs, errors, and execution flow for debugging or monitoring.
 
@@ -45,3 +46,8 @@ Wraps the OpenAI client so even direct OpenAI API calls (outside LangChain/LangG
 
 RunTree (Advanced)
 A low-level API for building custom trace trees manually. You can add events, metadata, child traces, and control the whole trace structure. Useful for complex or highly customized pipelines.
+
+Lesson 4
+Group Traces Into Threads 
+
+Threading lets us group multiple related traces under a single conversation or workflow. Each run inside the thread shares the same thread ID, making it easy to track context, follow history, and analyze entire sessions as one logical unit. This is useful for chat apps, multi-step pipelines, and any workflow where several traces belong to the same user interaction.
