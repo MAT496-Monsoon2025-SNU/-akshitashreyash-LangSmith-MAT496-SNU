@@ -115,3 +115,7 @@ Creates or reuses a LangSmith dataset (Perplexity-RAG-Results).
 Logs each input + output pair to LangSmith for tracking and evaluation.
 Demonstrates the core steps of prompt engineering:
 prompt design → hydration → model call → experiment logging.
+
+Lesson 4
+
+Here we talk about prompt canvas. On Langchain website, we cannot use any key other than open ai and since I use Perplexity, I run the code in my jupyter notebook to create a prompt and run the input using python. 
