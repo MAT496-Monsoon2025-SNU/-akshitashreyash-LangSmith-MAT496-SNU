@@ -85,3 +85,15 @@ Model responses are compared to reference answers using two evaluators: semantic
 Traces show how the evaluator interprets each submission and assigns a numeric similarity score.
 Dashboard charts reveal how scores vary across dataset examples, with some cases (e.g., #6) showing noticeable drops.
 Running experiments across dataset versions, splits, and repetitions highlights how different configurations affect model quality.
+
+=======
+
+MODULE 3
+
+LESSON 1
+
+Experiments evaluate a Perplexity-based RAG pipeline using LangSmith.
+Model responses are compared to reference answers using two evaluators: semantic similarity and conciseness.
+Traces show how the evaluator interprets each submission and assigns a numeric similarity score.
+Dashboard charts reveal how scores vary across dataset examples, with some cases (e.g., #6) showing noticeable drops.
+Running experiments across dataset versions, splits, and repetitions highlights how different configurations affect model quality.
