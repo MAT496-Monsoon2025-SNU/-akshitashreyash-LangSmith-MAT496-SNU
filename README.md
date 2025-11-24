@@ -98,9 +98,20 @@ Traces show how the evaluator interprets each submission and assigns a numeric s
 Dashboard charts reveal how scores vary across dataset examples, with some cases (e.g., #6) showing noticeable drops.
 Running experiments across dataset versions, splits, and repetitions highlights how different configurations affect model quality.
 
-Lesson 3
+Lesson 2
 
 This project builds a small RAG workflow using Perplexity (sonar-pro) for generation and LangSmith for storing and evaluating results.
 A prompt is hydrated with a question, language, and an attachment (/mnt/data/Lesson 1.ipynb), then sent to Perplexity. 
 The model’s output is saved to a LangSmith dataset (Perplexity-RAG-Results) for later evaluation and comparison. 
 This setup enables tracking for RAG-style applications.
+
+Lesson 3
+
+Prompt Engineering Workflow sses a simple LangChain-style prompt template with variables.
+Hydrates the prompt using real inputs, including the attached notebook:
+/mnt/data/prompt_engineering_lifecycle.ipynb
+Sends the hydrated messages to Perplexity (sonar-pro) for generation.
+Creates or reuses a LangSmith dataset (Perplexity-RAG-Results).
+Logs each input + output pair to LangSmith for tracking and evaluation.
+Demonstrates the core steps of prompt engineering:
+prompt design → hydration → model call → experiment logging.
