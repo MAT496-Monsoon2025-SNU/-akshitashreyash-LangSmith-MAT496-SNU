@@ -70,3 +70,10 @@ Evaluators are tools used to automatically score the quality of model outputs. T
 LLM-as-a-Judge Evaluators
 
 LLM-as-a-Judge evaluators use another language model to grade responses. Instead of hand-crafted rules, the evaluator LLM reads the question, the reference answer, and the model output, then assigns a score (e.g., 1–10). This approach is flexible, scalable, and works well for subjective tasks like semantic similarity, reasoning quality, or explanation clarity.
+
+LESSON 3 
+
+This project builds a small RAG pipeline using the Perplexity API and evaluates it with LangSmith. A Perplexity-powered langsmith_rag function retrieves context, generates answers, and logs runs. A LangSmith dataset is created with custom Q/A examples.
+Evaluators score model outputs, and evaluate() runs experiments across full datasets, versions, splits, selected examples, repetitions, concurrency, and metadata.
+This setup lets you measure and compare the performance of your RAG system easily.
+The model used by us is sonar pro.
