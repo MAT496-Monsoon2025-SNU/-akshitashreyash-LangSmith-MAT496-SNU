@@ -77,3 +77,11 @@ This project builds a small RAG pipeline using the Perplexity API and evaluates 
 Evaluators score model outputs, and evaluate() runs experiments across full datasets, versions, splits, selected examples, repetitions, concurrency, and metadata.
 This setup lets you measure and compare the performance of your RAG system easily.
 The model used by us is sonar pro.
+
+LESSON 4 
+
+Experiments evaluate a Perplexity-based RAG pipeline using LangSmith.
+Model responses are compared to reference answers using two evaluators: semantic similarity and conciseness.
+Traces show how the evaluator interprets each submission and assigns a numeric similarity score.
+Dashboard charts reveal how scores vary across dataset examples, with some cases (e.g., #6) showing noticeable drops.
+Running experiments across dataset versions, splits, and repetitions highlights how different configurations affect model quality.
