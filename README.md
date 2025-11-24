@@ -59,3 +59,14 @@ Threading lets us group multiple related traces under a single conversation or w
 Lesson 1
 
 This code loads environment variables, creates a LangSmith dataset, and uploads a list of example question–answer pairs. It then defines a minimal RAG-style function (langsmith_rag) that retrieves a simple context snippet and generates a short answer. Finally, we can call langsmith_rag(question) to run the example end-to-end.
+
+
+Lesson 2 
+
+Evaluators 
+
+Evaluators are tools used to automatically score the quality of model outputs. They compare a model’s response against expected answers or criteria such as accuracy, relevance, clarity, or semantic similarity. Evaluators help benchmark, debug, and improve LLM applications by providing consistent, repeatable scoring.
+
+LLM-as-a-Judge Evaluators
+
+LLM-as-a-Judge evaluators use another language model to grade responses. Instead of hand-crafted rules, the evaluator LLM reads the question, the reference answer, and the model output, then assigns a score (e.g., 1–10). This approach is flexible, scalable, and works well for subjective tasks like semantic similarity, reasoning quality, or explanation clarity.
