@@ -135,4 +135,8 @@ What has altered: Node outputs and the State type now include user_name, mood, l
 
 LESSON 3
 
-We learnt how to use the langgraph studio UI in the browser and visualise the node in the UI by entering the graph state here itself.
+this one was on chains. We learnt how to use the langgraph studio UI in the browser and visualise the node in the UI by entering the graph state here itself.
+
+Lesson 4
+
+This is on router. We learnt how graph can route between direct LLM response and tool execution by inspecting model output and using conditional edges, also learnt using a ToolNode and the tools_condition enables the model to request structured tool calls which are executed and inserted back into message stream.
