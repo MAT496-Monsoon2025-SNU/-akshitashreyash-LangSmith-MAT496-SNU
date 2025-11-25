@@ -133,3 +133,6 @@ We developed a function to monitor textual differences and timestamps each time 
 
 What has altered: Node outputs and the State type now include user_name, mood, last_updated, diff, and previous_graph_state. To make graph.invoke function, a minimal graph runner was implemented, and duplicate cells were swapped out for a single biased decide mood.
 
+LESSON 3
+
+We learnt how to use the langgraph studio UI in the browser and visualise the node in the UI by entering the graph state here itself.
