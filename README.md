@@ -140,3 +140,8 @@ this one was on chains. We learnt how to use the langgraph studio UI in the brow
 Lesson 4
 
 This is on router. We learnt how graph can route between direct LLM response and tool execution by inspecting model output and using conditional edges, also learnt using a ToolNode and the tools_condition enables the model to request structured tool calls which are executed and inserted back into message stream.
+
+LESSON 5
+
+I learned how to use MessageState with tool binding, how to inspect the output in Langsmith, and how a ReAct style loop allows the mdoel call toold to observe tool outputs and reason further by feeding tool response back into the assistant node.
+
