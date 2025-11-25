@@ -145,3 +145,7 @@ LESSON 5
 
 I learned how to use MessageState with tool binding, how to inspect the output in Langsmith, and how a ReAct style loop allows the mdoel call toold to observe tool outputs and reason further by feeding tool response back into the assistant node.
 
+LESSON 6&7
+
+We learnt how to add memory to the agent.
+
