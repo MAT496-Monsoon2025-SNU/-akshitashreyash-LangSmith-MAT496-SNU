@@ -119,3 +119,17 @@ prompt design → hydration → model call → experiment logging.
 Lesson 4
 
 Here we talk about prompt canvas. On Langchain website, we cannot use any key other than open ai and since I use Perplexity, I run the code in my jupyter notebook to create a prompt and run the input using python. 
+
+LANGGRAPH
+
+MODULE 1 
+
+LESSON 1 
+We discovered that LangGraph enables us to combine the flexibility of agents with the dependability of fixed control flows (chains). It makes it possible to create partially autonomous, structured, and customizable AI systems. No code in the video hence no jupyter notebook updated.
+
+LESSON 2 
+
+We developed a function to monitor textual differences and timestamps each time a node updates after learning about graph states.
+
+What has altered: Node outputs and the State type now include user_name, mood, last_updated, diff, and previous_graph_state. To make graph.invoke function, a minimal graph runner was implemented, and duplicate cells were swapped out for a single biased decide mood.
+
