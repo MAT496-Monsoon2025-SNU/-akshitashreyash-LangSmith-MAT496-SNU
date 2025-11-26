@@ -149,3 +149,8 @@ LESSON 6&7
 
 We learnt how to add memory to the agent.
 
+MODULE 2
+
+VIDEO 1 
+
+In state schema, we learnt about typed state schemas, TypedDict, dataclass, Pydantic, which lets every node share a consistent contact so LangGraph graphs stay predictable.
