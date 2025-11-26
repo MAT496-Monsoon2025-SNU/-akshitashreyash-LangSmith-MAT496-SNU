@@ -192,3 +192,6 @@ VIDEO 5
 
  LESSON 1
 Parallization - We learnt about executing multiple nodes at the same time, then merge their results, also learnt about reducers and custom reducers.Codes ran error due to perplexity api key execution.
+
+LESSON 2
+We learnt that sub graph enable modular state management for multi agent workflows in LangGraph.
