@@ -187,3 +187,8 @@ We learn Dynamic breakpoints using NodeInterrupt allow graphs to self-interrupt 
 
 VIDEO 5
  Time travel enables debugging through state history inspection using get_state_history() allowing replay of past execution states and forking to create alternate execution path from any checkpoint without losing the original execution branch.
+
+ MODULE 4
+
+ LESSON 1
+Parallization - We learnt about executing multiple nodes at the same time, then merge their results, also learnt about reducers and custom reducers.Codes ran error due to perplexity api key execution.
