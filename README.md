@@ -181,3 +181,6 @@ It sets up a graph with conversation + optional summarization, using a memory ch
 
 VIDEO 3
 This video includes streaming responses, thread-based state tracking, and optional state edits with checkpointing—without tools or external dependencies.
+
+VIDEO 4
+We learn Dynamic breakpoints using NodeInterrupt allow graphs to self-interrupt based on runtime conditions evaluated within nodes, providing more flexible control than compile-time breakpoints and enabling conditional interruption with custom error messages.
