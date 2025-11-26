@@ -162,3 +162,7 @@ in simple reducers, we Learnt that they let parallel nodes safely merge updates 
 VIDEO 3
 
 In multiple schema video, We learnt how a private state lets nodes exchange scratch variables without affecting the graph's public schema or final output, also learnt how a dedicated inout/output schemas filter which enters and leaves the graph but an internal schema preserves all working fields for logic.
+
+VIDEO 4
+
+In the video we learnt about message reducers, filters, and trimmers control how much of the conversation log reaches the model each turn.
