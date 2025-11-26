@@ -170,3 +170,8 @@ In the video we learnt about message reducers, filters, and trimmers control how
 VIDEO 5&6
 Here we learnt about how a running outline lets the chatbot compress conversation history while LangGraph handles persistence across steps and threads.
 Chatbot with Summarizing Messages and External Memory-we learnt how to use external checkpointers such as Sqlite persist every thread’s state so the chatbot can resume conversations with their memory of last conversation intact.
+
+MODULE 3
+
+VIDEO 1 
+We Learnt about multiple streaming modes like values mode that stream the full graph state after each node executes, updates mode that streams only the changes to state after each node, messages mode for message based workflows and  astream_events
