@@ -154,3 +154,7 @@ MODULE 2
 VIDEO 1 
 
 In state schema, we learnt about typed state schemas, TypedDict, dataclass, Pydantic, which lets every node share a consistent contact so LangGraph graphs stay predictable.
+
+VIDEO 2 
+
+in simple reducers, we Learnt that they let parallel nodes safely merge updates so the state contract stays deterministic and also that annotated keys can swap between overwrite, append, or custom merge behaviors without rewriting nodes.
