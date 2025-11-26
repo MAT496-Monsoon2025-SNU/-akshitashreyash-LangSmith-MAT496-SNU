@@ -166,3 +166,7 @@ In multiple schema video, We learnt how a private state lets nodes exchange scra
 VIDEO 4
 
 In the video we learnt about message reducers, filters, and trimmers control how much of the conversation log reaches the model each turn.
+
+VIDEO 5&6
+Here we learnt about how a running outline lets the chatbot compress conversation history while LangGraph handles persistence across steps and threads.
+Chatbot with Summarizing Messages and External Memory-we learnt how to use external checkpointers such as Sqlite persist every thread’s state so the chatbot can resume conversations with their memory of last conversation intact.
