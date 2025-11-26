@@ -175,3 +175,9 @@ MODULE 3
 
 VIDEO 1 
 We Learnt about multiple streaming modes like values mode that stream the full graph state after each node executes, updates mode that streams only the changes to state after each node, messages mode for message based workflows and  astream_events
+
+VIDEO 2
+It sets up a graph with conversation + optional summarization, using a memory checkpointer to support multi-turn threads safely.
+
+VIDEO 3
+This video includes streaming responses, thread-based state tracking, and optional state edits with checkpointing—without tools or external dependencies.
