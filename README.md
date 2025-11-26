@@ -158,3 +158,7 @@ In state schema, we learnt about typed state schemas, TypedDict, dataclass, Pyda
 VIDEO 2 
 
 in simple reducers, we Learnt that they let parallel nodes safely merge updates so the state contract stays deterministic and also that annotated keys can swap between overwrite, append, or custom merge behaviors without rewriting nodes.
+
+VIDEO 3
+
+In multiple schema video, We learnt how a private state lets nodes exchange scratch variables without affecting the graph's public schema or final output, also learnt how a dedicated inout/output schemas filter which enters and leaves the graph but an internal schema preserves all working fields for logic.
