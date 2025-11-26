@@ -184,3 +184,6 @@ This video includes streaming responses, thread-based state tracking, and option
 
 VIDEO 4
 We learn Dynamic breakpoints using NodeInterrupt allow graphs to self-interrupt based on runtime conditions evaluated within nodes, providing more flexible control than compile-time breakpoints and enabling conditional interruption with custom error messages.
+
+VIDEO 5
+ Time travel enables debugging through state history inspection using get_state_history() allowing replay of past execution states and forking to create alternate execution path from any checkpoint without losing the original execution branch.
