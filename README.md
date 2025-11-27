@@ -199,4 +199,9 @@ We learnt that sub graph enable modular state management for multi agent workflo
 LESSON 3
 We learn that map reduce enables efficient parallelization and aggregation of tasks in LangGraph workflows. I tried fixing the one error but did not succeed
 
+LESSON 4
+We learn that multi-agent research assistants in LangGraph can coordinate analyst, interview and report generation using graph workflows and act as a very nice research assistant.
+
+
+
 
