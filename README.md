@@ -195,3 +195,8 @@ Parallization - We learnt about executing multiple nodes at the same time, then 
 
 LESSON 2
 We learnt that sub graph enable modular state management for multi agent workflows in LangGraph.
+
+LESSON 3
+We learn that map reduce enables efficient parallelization and aggregation of tasks in LangGraph workflows. I tried fixing the one error but did not succeed
+
+
